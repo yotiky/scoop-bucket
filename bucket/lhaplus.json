@@ -2,12 +2,4 @@
     "version": "1.74",
     "homepage": "http://www7a.biglobe.ne.jp/~schezo/",
     "url": "http://www7a.biglobe.ne.jp/~schezo/lpls174.zip",
-    "depends": "sudo",
-    "installer": {
-        "script": "sudo Start-Process \"$dir/Setup.exe\" -ArgumentList '/SILENT /NORESTART' -Wait -NoNewWindow",
-        "keep": "true"
-    },
-    "uninstaller": {
-        "script": "sudo Start-Process \"$dir/Uninst.exe\" -ArgumentList '/VERYSILENT /NORESTART' -Wait -NoNewWindow"
-    }
 }
